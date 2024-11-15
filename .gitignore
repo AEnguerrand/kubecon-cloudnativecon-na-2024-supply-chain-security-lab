@@ -1,1 +1,3 @@
 node_modules/
+*.tgz
+npm-provenance.sigstore.json

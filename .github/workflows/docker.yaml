@@ -1,9 +1,7 @@
 name: "[Container image] Build, Attest, and Push to Github Packages"
 
-on:
-  push:
-    branches:
-      - main 
+on: workflow_dispatch # This workflow is triggered manually
+
 
 permissions:
   contents: read

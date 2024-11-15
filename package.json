@@ -11,10 +11,15 @@
     "type": "git",
     "url": "https://github.com/AEnguerrand/kubecon-cloudnativecon-na-2024-supply-chain-security-lab"
   },
-  "keywords": ["supply-chain", "security", "lab"],
+  "keywords": [
+    "supply-chain",
+    "security",
+    "lab"
+  ],
   "author": "Enguerrand Allamel",
   "license": "MIT",
   "dependencies": {
+    "@aenguerrand/kubecon-cloudnativecon-na-2024-supply-chain-security-lab": "^0.1.0",
     "express": "^4.21.1"
   }
 }
