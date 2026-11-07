@@ -1,3 +1,44 @@
 node_modules/
 *.tgz
 npm-provenance.sigstore.json
+
+# Local credentials and environment files. Examples must contain placeholders only.
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Local data and authenticated browser captures
+.auth/
+*storage-state*.json
+cookies.txt
+cookies.json
+*.har
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+/private-data/
+/backups/
+/exports/
+/scans/
+/captures/
+/Sessions/
+
+# Local agent and review output
+artifacts/
+output/
+.playwright-cli/
+playwright-report/
+test-results/
