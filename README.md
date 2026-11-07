@@ -17,6 +17,8 @@ This lab demonstrates a supply chain security example using container images and
 > [!NOTE]
 > This lab repository is linked to a KubeCon/CloudNativeCon talk. More information and slides are available at: [Event Link](https://kccncna2024.sched.com/event/e835e3bc599b5a6a3a909a8cfbf2dcd5)
 
+[Talk notes and recording](https://enguerrand.dev/talks/kubecon-na-2024/) by Enguerrand Allamel.
+
 ## Prerequisites
 
 - **Docker:** For building and running container images.
